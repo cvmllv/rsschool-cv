@@ -1,0 +1,282 @@
+@font-face {
+    font-family: 'Inika';
+    src: url("assets/fonts/Inika-Regular.ttf");
+}
+@font-face {
+    font-family: 'Inter';
+    src: url("assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+@font-face {
+    font-family: 'Inter Bold';
+    src: url("assets/fonts/Inter-Bold.ttf");
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    position: relative;
+}
+
+li, a{
+    font-family: 'Inika';
+    font-size: 16px;
+    color: #010201;
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    display: flex;
+    height: 134px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EDF2EC;
+    padding: 0 109px;
+}
+.nav-list{
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-item{
+    padding-left: 46px;
+    line-height: 50px;
+}
+.nav-link{
+    cursor: pointer;
+}
+.nav-link:hover{
+    color: #E06733;
+}
+.logo{
+    cursor: pointer;
+}
+.accent{
+    color: #E06733;
+}
+.accent-green{
+    color: #499a18;
+}
+.bold{
+    font-family: 'Inter Bold';
+}
+.welcome{
+    background-color: #EDF2EC;
+    padding: 0 109px;
+    height: 532px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Inter';
+    padding: 0 109px;
+}
+.text{
+    width: 549px;
+    height: 340px;
+}
+.h1{
+    font-size: 45px;
+    line-height: 50px;
+    color: #717171;
+    padding-bottom: 42px;
+}
+.paragraph{
+    font-family: 'Inter';
+    font-size: 20px;
+    line-height: 35px;
+    color: #636060;
+    padding-bottom: 48px;
+}
+button{
+    display: inline-block;
+    border-radius: 10px;
+    width: 158px;
+    height: 44px;
+    border-color: #E06733;
+    border-style: solid;
+    border-width: 2px;
+    background-color: transparent;
+    font-size: 16px;
+}
+button:hover{
+    background-color: #E06733;
+    color: #ffffff;
+}
+#about{
+    background-color: #ffffff;
+    padding: 0 109px;
+    height: 666px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Inter';
+}
+.h2{
+    font-family: 'Inika';
+    font-size: 40px;
+    line-height: auto;
+}
+.about-us{
+    width: 463px;
+    height: 102px;
+}
+.paragraph2{
+    font-family: 'Inter';
+    font-size: 20px;
+    line-height: 30px;
+    color: #636060;
+    padding-top: 40px;
+}
+.about-section{
+    width: 605px;
+    height: 340px;
+}
+#service{
+    background-color: #EDF2EC;
+    padding: 0 109px;
+    height: 1300px;
+    font-family: 'Inika';
+}
+.service-list{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 213px;
+}
+.service-item{
+    padding-right: 38px;
+    padding-top: 69px;
+}
+.service-paragraph{
+    width: 306px;
+    height: 94px;
+    padding-top: 40px;
+}
+.title{
+    padding-right: 142px;
+}
+.service-button{
+    border-radius: 5px;
+    font-family: 'Inika';
+    font-size: 20px;
+    color: #E06733;
+    width: 161px;
+    height: 50px;
+    border-width: 1px;
+}
+.services-row1{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.services-row2{
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+.services-card{
+    box-sizing: border-box;
+    width: 330px;
+    height: 450px;
+    border:1px solid #E3E1D5;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family: 'Inter';
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.image{
+    width: 330px;
+    height: 350px;
+}
+.info-title{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Inter Bold';
+    line-height: 20px;
+    padding-top: 10px;
+}
+.info-text{
+    color: #717171;
+    margin-top: 10px;
+    line-height: 20px;
+}
+#prices{
+    height: 520px;
+    padding: 0 109px;
+    background-color: #ffffff;
+}
+.prices-list{
+    justify-content: space-between;
+    text-align: right;
+    margin-top: 40px;
+}
+.prices-text{
+    font-family: 'Inter Bold';
+    font-size: 40px;
+    line-height: 50px;
+}
+.text-aling-left{
+    text-align: left;
+}
+.container-price-list{
+    width: 332px;
+    height: 282px;
+    margin-top: 61px;
+    border: 1px #E3E1D5 solid;
+    border-radius: 20px;
+}
+.drop-down-list{
+    display: grid;
+    gap: 32px;
+    padding: 34px 41px;
+}
+.drop-down{
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #EDF2EC;
+    padding: 0 40px;
+}
+.drop-down-text{
+    font-size: 20px;
+    font-family: 'Inter Bold';
+    line-height: 20px;
+}
+.size{
+    width: 452px;
+    height: 103px;
+}
+.price-button{
+    padding-top: 38px;
+}
+.img-leafs{
+    padding-top: 39px;
+}
+.leafs2{
+    height: 175px;
+    width: 152px;
+}
+#contacts{
+    height: 550px;
+    padding: 0 109px;
+    background-color: #EDF2EC;
+    overflow: hidden;
+}
+.contact-us{
+    padding-top: 55px;
+    display: flex;
+}
+
+footer{
+    padding: 0 109px;
+    height: 130px;
+}
+.footer-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 320px;
+    padding-top: 40px;
+}
+
